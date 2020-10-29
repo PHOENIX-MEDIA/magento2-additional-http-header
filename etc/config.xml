@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * AdditionalHttpHeader
+ *
+ * @category   Phoenix
+ * @package    Phoenix_AdditionalHttpHeader
+ * @copyright  Copyright (c) 2020 PHOENIX MEDIA GmbH (http://www.phoenix-media.eu)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <additionalhttpheader>
+            <general>
+                <enabled>1</enabled>
+                <full_action_name>1</full_action_name>
+            </general>
+        </additionalhttpheader>
+    </default>
+</config>

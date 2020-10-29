@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * AdditionalHttpHeader
+ *
+ * @category   Phoenix
+ * @package    Phoenix_AdditionalHttpHeader
+ * @copyright  Copyright (c) 2020 PHOENIX MEDIA GmbH (http://www.phoenix-media.eu)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\App\Response\Http">
+        <plugin name="response-additional-http-header" type="Phoenix\AdditionalHttpHeader\Model\App\Response\HttpPlugin"/>
+    </type>
+    <type name="Phoenix\AdditionalHttpHeader\Model\Config">
+        <arguments>
+            <argument name="additionalHttpHeaderHandler" xsi:type="array">
+                <item name="fullActionName" xsi:type="string">Phoenix\AdditionalHttpHeader\Model\Handler\FullActionName</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
