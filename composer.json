@@ -2,15 +2,14 @@
     "name": "phoenix-media/magento2-additional-http-header",
     "description": "",
     "require": {
-        "php": "~7.0.0",
-
+        "php": "~7.0",
         "magento/magento-composer-installer": "*"
     },
     "suggest": {
 
     },
     "type": "magento2-module",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": [
         "OSL-3.0"
     ],
